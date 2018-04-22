@@ -4,7 +4,8 @@
   "description": "Sea Notice can help people get the information they want via AI methods. Students will never complain about the school's sucking notice system and they don't need to rely on QQ or WeChat group to receive important notices.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Hython liuyuanjian@zju.edu.cn",
   "license": "ISC",
