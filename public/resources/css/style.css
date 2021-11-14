@@ -202,8 +202,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background1.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background1.png);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/illinois-flag.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/illinois-flag.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -218,6 +218,19 @@ header {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.time-qrcode-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 140%;
+    word-spacing: 4px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(20%, 210%);
 }
 
 .logo {
@@ -381,11 +394,11 @@ header {
 }
 
 .app-screen {
-    width: 40%;
+    width: 45%;
 }
 
 .works-step {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .works-step:last-of-type {
@@ -397,13 +410,18 @@ header {
     font-size: 150%;
     height: 54px;
     width: 54px;
-    border: 2px solid #e67e22;
-    border-radius: 50%;
+    /* border: 2px solid #e67e22; */
+    /* border-radius: 50%; */
     display: inline-block;
     text-align: center;
-    margin-right: 25px;
+    margin-right: 50px;
     float: left;
     padding: 5px;
+}
+
+.prepsteps div{
+    border: 2px solid #e67e22;
+    border-radius: 50%;
 }
 
 .btn-app:link,
@@ -543,9 +561,14 @@ cite img {
 /* FORM */
 /* ----------------------------------------------- */
 
+.section-form {
+    background-color: #f4f4f4;
+}
+
 .contact-form {
     width: 60%;
     margin: 0 auto;
+    
 }
 
 input[type=text],
